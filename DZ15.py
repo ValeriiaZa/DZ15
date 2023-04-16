@@ -2,7 +2,6 @@ x = int(input('Type a number from 0 to 8639999:'))
 if x < 0 or x >= 8640000:
     print('invalid number')
 else:
-    m = [11, 12, 13, 14, 15, 16, 17, 18, 19]
     a = x // (60 * 60 * 24)
     b = (x - a * (60 * 60 * 24)) // (60 * 60)
     c = (x - a * (60 * 60 * 24) - b * (60 * 60)) // 60
